@@ -1,0 +1,83 @@
+/*****************************************************Mobiele versie/ kleinste versie***********************************************/ 
+body {
+  margin: 5vh 5vw;
+
+    background-image: url(../afbeeldingen/Aarde.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+#map {
+  height: 90vh;
+  width: 90vw;
+    
+}
+h1{
+   display: none;
+}
+#astronaut{
+    height: 85px;
+}
+
+
+
+/*************************************************einde mobiele versie/ kleinste versie********************************************/
+
+
+/*************************************************Tablet versie********************************************************************/
+
+@media only screen and (min-width: 720px) and (max-width: 999px){
+    #astronaut{
+        height: 80px;
+    }
+}
+     
+
+
+/***************************************************einde tablet versie**************************************************************/
+
+
+/***********************************************desktop klein*************************************************************************/
+@media only screen and (min-width: 999px) and (max-width:1299px){
+    h1{
+        display: block;
+        z-index: 999;
+        position: absolute;
+
+        font-size: 1.5em;
+        font-family: Poppins, sans-serif;
+
+        margin: 20px;
+    }
+    
+    #astronaut{
+        height: 80px;
+    }
+    
+       
+   
+}
+
+
+
+/**********************************************einde desktop klein*****************************************************************/
+
+
+/***********************************************desktop groot*********************************************************************/
+@media only screen and (min-width: 1300px){
+    h1{
+        display: block;
+        z-index: 999;
+        position: absolute;
+
+        font-size: 1.5em;
+        font-family: Poppins, sans-serif;
+
+        margin: 20px;
+    }
+    
+    #astronaut{
+        height: 80px;
+    }
+
+        
+}
